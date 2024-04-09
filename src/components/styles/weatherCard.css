@@ -1,0 +1,63 @@
+
+/* My Weather cards settings-------------- */
+.title{
+    text-align: center;
+    margin: 0 auto;
+}
+.weather__card-container{
+    /* border: 1px solid black; */
+    margin: auto 0;
+    color: #fff;
+    padding: 4rem 1rem;
+    background-color: #150a0a32;
+}
+.weather__main-title{
+    text-align: center;
+    font-weight: 300;
+}
+.weather__main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem;
+}
+.weather__container{
+    display: flex;
+    /* flex-direction: column; */
+    gap: 2rem;
+}
+.weather__env-condition{
+    text-align: center;
+}
+.weather__info-title{
+    display: flex;
+    flex-direction: column;
+}
+.weather__info{
+    display: flex;
+    flex-direction: column;
+}
+.weather__temp{
+    font-size: 3rem;
+    font-weight: 500;
+    padding-top: 2rem;
+    color: black;
+}
+/* My Weather cards settings-------------- */
+
+/*Media queries-------------- */
+
+@media only screen and (max-width: 768px) {
+    .weather__main-container{
+        flex-direction: column;
+    }
+    .weather__card-container{
+        padding: 1rem 1rem;
+    }
+    .weather__main-container{
+        padding: 0;
+        height: auto;
+    }
+}
+
+
